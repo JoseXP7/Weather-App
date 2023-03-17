@@ -1,0 +1,14 @@
+$primary: #95BDFF;
+$light: #FFFFFF;
+
+$theme-colors: (
+	"primary": $primary,
+	"light": $light
+);
+.weather-content {
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/background.jpg");
+	background-size: cover
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
